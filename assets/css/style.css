@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+body {
+    height: 100vh;
+    background: linear-gradient(120deg, #514869, #2b134b);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.Clock {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 250px;
+    width: 700px;
+    background: transparent;
+    border-radius: 20px;
+    box-shadow: 0px 8px 10px rgba(0, 0, 0, .7);
+    margin-top: 10px;
+    margin-bottom: 10px;
+
+}
+
+.Clock div {
+    height: 200px;
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: #f0ffffde;
+    background: rgba(5, 5, 5, .9);
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, .8);
+    border-radius: 20px;
+    letter-spacing: 3px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.Clock span {
+    font-weight: bolder;
+    font-size: 60px;
+}
+
+.Clock span.time {
+    font-size: 10px;
+}
+
+@media only screen and (max-width: 800px){
+    .Clock{
+        width: 85px;
+    }
+}
+
+@media only screen and (max-width: 800px){
+    .Clock{
+        flex-direction: column;
+        width: 100%;
+        height: auto;
+        width: 50vw;
+        width: 90%;
+    }
+}
+
+
+
+/***Feito por Larissa V. Kich***/
